@@ -1,4 +1,7 @@
 package com.example.posapi.dao.custom;
 
-public interface OrderDAO {
+import com.example.posapi.dao.CrudDAO;
+import com.example.posapi.entity.OrderEntity;
+
+public interface OrderDAO extends CrudDAO<OrderEntity> {
 }
